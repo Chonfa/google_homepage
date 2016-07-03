@@ -2,25 +2,38 @@
 	color: buttontext;
 	margin-right: auto;
 	margin-left: auto;
-	width: 15px;
+	width: 111px;
 }
-/*
-#lucky_button{
-	float: right;
-}
-#search_button{
-	float: left;
-}
-*/
+
 #logo{
-	border: 1px dashed black;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 15%;
-	width: 538px;
+	width: 272px;
 }
+
 #search_box{
-	margin-left: auto;
+
+	position: relative;
+	top: 0px;
+	z-index: 2;
+	width:278px;
+	margin-left:-139px;
+	left:50%;
+}
+#lucky_button{
 	margin-right: auto;
-	width: 150px;
+	margin-left: auto;
+	position: relative;
+	top: -17px;
+	left: 55px;
+}
+
+#search_button{
+
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: -51px;
+	top: 4px;
 }
