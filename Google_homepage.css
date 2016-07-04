@@ -5,6 +5,53 @@
 	width: 111px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+		overflow: hidden;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #2d2d2d;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #dddddd;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ececec;
+}
+
 #logo{
 	margin-right: auto;
 	margin-left: auto;
@@ -21,11 +68,12 @@
 	margin-left:-139px;
 	left:50%;
 }
+
 #lucky_button{
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-	top: -17px;
+	top: -13px;
 	left: 55px;
 }
 
@@ -35,5 +83,5 @@
 	margin-left: auto;
 	position: relative;
 	left: -51px;
-	top: 4px;
+	top: 8px;
 }
